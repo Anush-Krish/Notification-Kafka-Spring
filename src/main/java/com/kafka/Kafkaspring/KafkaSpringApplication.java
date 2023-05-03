@@ -10,4 +10,5 @@ public class KafkaSpringApplication {
 		SpringApplication.run(KafkaSpringApplication.class, args);
 	}
 
+
 }
