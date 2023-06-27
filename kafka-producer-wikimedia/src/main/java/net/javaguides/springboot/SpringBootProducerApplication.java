@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootProducerApplication implements CommandLineRunner {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootProducerApplication.class);
+        SpringApplication.run(SpringBootProducerApplication.class, args);
     }
     @Autowired
     private WikimediaChangesProducer wikimediaChangesProducer;
